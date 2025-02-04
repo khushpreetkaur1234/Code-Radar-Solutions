@@ -8,8 +8,7 @@ int main() {
     int sum;
     scanf("%d",a);
     scanf("%d" , b);
-
-    printf("enter the sum of the two interger:" a+b ,sum);
+    printf( a+b ,sum);
 
     return 0;
 }
