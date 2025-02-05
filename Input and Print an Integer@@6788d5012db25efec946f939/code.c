@@ -5,6 +5,6 @@ int main() {
 
     scanf("%d", &n);
 
-    printf("You entered: %d/n" , n);
+    printf("You entered: %d" , n);
     return 0;
 }
