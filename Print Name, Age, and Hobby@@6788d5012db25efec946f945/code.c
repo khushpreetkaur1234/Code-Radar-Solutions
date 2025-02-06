@@ -5,8 +5,8 @@ int main() {
     int age;
     scanf("%s %d " , &name , &age);
     scanf("%d" , &age);
-    printf("Name: %s/n" , name);
-    printf("Age: %d/n" , age);
+    printf("Name: %s" , name);
+    printf("Age: %d" , age);
     printf("Hobby: %s" , hobby);
     return 0;
 }
