@@ -7,7 +7,7 @@ int main() {
     }else if(ch>=a && ch<=z){
         printf("%c" ,Constant);
     }else{
-        printf("%d" , Digit)
+        printf("%d" , Digit);
     }
     return 0;
 }
