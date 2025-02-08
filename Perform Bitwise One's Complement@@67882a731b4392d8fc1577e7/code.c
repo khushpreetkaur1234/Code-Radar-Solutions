@@ -2,8 +2,7 @@
 
 int main() {
     int a;
-    int b  = -(a+1);
-    scanf("%d %d" ,&a , &b);
-    printf("%d", b, result);
+    scanf("%d ", &a);
+    printf("%d",~a);
     return 0;
 }
