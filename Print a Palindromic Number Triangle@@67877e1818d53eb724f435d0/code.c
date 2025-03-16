@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
-        // Print spaces for alignment
+        // Print leading spaces for proper alignment
         for (int j = 1; j <= n - i; j++) {
             printf(" ");
         }
@@ -26,4 +26,3 @@ int main() {
 
     return 0;
 }
-
