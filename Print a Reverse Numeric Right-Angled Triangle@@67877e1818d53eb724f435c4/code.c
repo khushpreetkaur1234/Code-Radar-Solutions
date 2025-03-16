@@ -1,13 +1,12 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
     int N;
     scanf("%d", &N);  // Input the number of rows
 
-    for(int i = 1; i <= N; i++) {
-        // Print numbers in reverse order
-        for(int j = i; j >= 1; j--) {
+    for(int i = N; i >= 1; i--) {
+        // Print numbers starting from 1 up to the current row number
+        for(int j = 1; j <= i; j++) {
             printf("%d ", j);
         }
         printf("\n");  // Move to the next line
