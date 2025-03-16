@@ -1,11 +1,11 @@
-// Your code here...#include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int N;
     scanf("%d", &N);  // Input the number of rows
 
     // Outer loop for rows
-    for(int i = N; i >= 1; i--) {
+    for(int i = 1; i <= N; i++) {
         // Inner loop for printing stars
         for(int j = 1; j <= i; j++) {
             printf("* ");
