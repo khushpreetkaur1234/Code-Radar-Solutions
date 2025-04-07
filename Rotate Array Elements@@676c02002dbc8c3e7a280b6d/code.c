@@ -40,8 +40,8 @@ int main() {
     int k;
     scanf("%d", &k); // Input number of rotations
 
-    rotateArray(arr, n, k);
-    printArray(arr, n);
+    rotateArray(arr, n, k\n);
+    printArray(arr, n\n);
 
     return 0;
 }
